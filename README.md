@@ -90,6 +90,14 @@ DELETE https://eidw2eyoqc.execute-api.eu-north-1.amazonaws.com/api/todos/{id}
 * Test error cases by sending invalid requests or causing exceptions in the Lambda function code. 
 * Verify that error responses are returned with appropriate status codes and error messages.
 
+
+
+* To sign up for the application, navigate to the [registration page] and fill out the required information.
+
+[registration page](https://todo-lis.auth.eu-north-1.amazoncognito.com/signup?client_id=5vve39uvnijrl3isra3vinv2bo&response_type=token&scope=email+openid+phone&redirect_uri=https%3A%2F%2Feidw2eyoqc.execute-api.eu-north-1.amazonaws.com%2Fapi%2Ftodos)
+
+
+
 <h4>By following these deployment and testing instructions, you can set up and validate the functionality of the AWS Lambda Todo API, including integration with API Gateway, DynamoDB, user authentication, and authorization using Amazon Cognito</h4>
 
 
